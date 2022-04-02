@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDVlMGJmODIwY2IxMjAzYzk5YTBlNCIsInVzZXJuYW1lIjoiRGFuaWVsIiwiaWF0IjoxNjQ4NzU4NDk2fQ.jGq28jv2lDkc3bf3_-y5FGp9UTrHW_kVG0Et4e4DYjM
+
+{
+    "content": "Volvemos!! prueba con jwt y middleware de user extractor",
+    "important": true
+}
